@@ -1,0 +1,34 @@
+# version
+1.1
+#
+# MAJOR keyword, then catalog year (fall of entrance year), then major short code, then major long display name
+MAJOR 2026 BSEE Bachelor of Science in Electrical Engineering
+#
+# Next are the required courses for this major & year, arranged in standard recommended 4-year sequence of courses with semester labels between each one
+# It is attempted to keep this format as similar as possible to the "transcript" format which will be used elsewhere in this program
+# SU0 (summer semester 0) also will hold any previous courses or equivalencies (AP, transfer, etc) taken
+# Comments can be added with a # character as the first character in the line (will be preprocessed-out)
+# Recognized keywords: END, MAJOR, MINOR, ELECTIVE, EQUIVALENTS, SU0, SU1, SU2, SU3, SU4, SU5, SU6, FA1, FA2, FA3, FA4, FA5, FA6, SP1, SP2, SP3, SP4, SP5, SP6
+#
+SU0
+FA1 EN1112 MTH1163 CHM1121 CHM1123 EGL1013 COR1002
+SP1 BBL1013 EGL1023 MTH1173 EN1322 EN1321 EN1222 EN1221
+SU1 
+FA2 MTH2113 PHY2213 PHY2211 EN1173 EE2222 EE2221 ME2562 ME2561
+SP2 BBL1023 MTH2123 PHY2313 PHY2311 EE2312 EE2311 EE2212 EE2211
+SU2
+FA3 BBL2013 HST2013 EE3243 EN3412 EN3411 EE3123 
+SP3 EN3513 HST2023 MTH3133 EN3422 EN3421 EN3222 ELECTIVE 
+SU3
+FA4 MTH3183 EE4302 EE4301 EN4113 EE4322 EE4321 ELECTIVE
+SP4 BBL2022 KIN1002 EN4343 EE4562 EE4561 EN4123 ELECTIVE 
+END 
+# After the "END" keyword, list the number of credits of electives needed, and then approved course numbers for electives
+# Consider how to deal with different types of EN3503... could use additional characters afterward to distinguish, like EN3503q for Quantum, EN3503ic for IC design, etc ?
+9 CS3443 CS3643 EN3473 EE3173 EE3343 EE3501 EE3502 EE3503 EN3501 EN3502 EN3503 EN3613 EN3623 EN3713 ME3153
+#
+# This EQUIVALENTS (or SWAPPABLE ?) section lists side by side any non-elective courses which may be swapped interchangably (according to standard advising guidance) in the schedule (however, they may still have prerequisites which need to be checked) (I'm not sure if this section is needed or not, or move to a separate file of hints for creating good schedules)
+EQUIVALENTS
+BBL1013 BBL1023
+BBL2013 BBL2022 HST2013 HST2023 
+
