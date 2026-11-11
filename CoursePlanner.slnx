@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CoursePlanner.App/CoursePlanner.App.csproj" />
+    <Project Path="src/CoursePlanner.Data/CoursePlanner.Data.csproj" />
+    <Project Path="src/CoursePlanner.Domain/CoursePlanner.Domain.csproj" />
+    <Project Path="src/CoursePlanner.ListGenerator/CoursePlanner.ListGenerator.csproj" />
+    <Project Path="src/CoursePlanner.ScheduleGenerator/CoursePlanner.ScheduleGenerator.csproj" />
+    <Project Path="src/CoursePlanner.Validation/CoursePlanner.Validation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CoursePlanner.Tests/CoursePlanner.Tests.csproj" />
+  </Folder>
+</Solution>
